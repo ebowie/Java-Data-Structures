@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=element
+comment0.target=void\ push(java.lang.Object)
+comment0.text=Adds\ one\ element\ to\ the\ top\ of\ this\ stack.
+comment1.params=
+comment1.target=java.lang.Object\ pop()
+comment1.text=Removes\ and\ returns\ the\ top\ element\ from\ this\ stack.
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=Returns\ without\ removing\ the\ top\ element\ of\ this\ stack.
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=Returns\ true\ if\ this\ stack\ contains\ no\ elements.
+comment4.params=
+comment4.target=int\ size()
+comment4.text=Returns\ the\ number\ of\ elements\ in\ this\ stack.
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=Returns\ a\ string\ representation\ of\ this\ stack.
+numComments=6

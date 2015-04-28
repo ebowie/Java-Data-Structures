@@ -1,0 +1,4 @@
+ARE 1
+HELLO 1
+HOW 1
+YOU 1

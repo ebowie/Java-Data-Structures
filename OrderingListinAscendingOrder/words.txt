@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en">
+<head>
+   
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="https://moodle.uncc.edu/theme/standard/styles.php" />
+<link rel="stylesheet" type="text/css" href="https://moodle.uncc.edu/theme/ctl-branded/styles.php" />
+
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="https://moodle.uncc.edu/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="https://moodle.uncc.edu/theme/standard/styles_ie6.css" />
+<![endif]-->
+
+
+   <meta name="keywords" content="moodle, ITCS-2214-001-First Summer 2013-30571: Word file for Programming Assignment 3 " />
+   <title>ITCS-2214-001-First Summer 2013-30571: Word file for Program</title>
+   <link rel="shortcut icon" href="https://moodle.uncc.edu/theme/ctl-branded/favicon.ico" />
+   <link rel="alternate stylesheet" type="text/css" href="https://moodle.uncc.edu/theme/ctl-branded/hide_inactive.css" title="Hide" />
+   <link rel="stylesheet" type="text/css" href="https://moodle.uncc.edu/theme/ctl-branded/show_inactive.css" title="Default" />
+   <script language="javascript">
+      //jharr189 added function submitform.
+      function submitform() {
+         document.helpdesk.submit();
+      }
+   </script>
+   <script type="text/javascript" src="https://moodle.uncc.edu/lib/speller/spellChecker.js"></script>
+<!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(https://moodle.uncc.edu/lib/csshover.htc);} /*]]>*/</style>-->
+
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/javascript-mod.php"></script>
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/overlib/overlib.js"></script>
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/overlib/overlib_cssstyle.js"></script>
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/cookies.js"></script>
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/ufo.js"></script>
+<script type="text/javascript" src="https://moodle.uncc.edu/lib/dropdown.js"></script>  
+
+<script type="text/javascript">
+//<![CDATA[
+/**
+ * Trigger the fixing of column widths
+ */
+function trigger_fix_column_widths() {
+    //sanity check - this should already be satisfied
+    if (document.readyState == "interactive") {
+        fix_column_widths();
+    }
+}
+
+//fix column widths via JS
+if (document.addEventListener) {
+    //for most browsers
+    document.addEventListener("DOMContentLoaded", fix_column_widths, false);
+} else {
+    //for IE
+    document.onreadystatechange = function() {
+        trigger_fix_column_widths();
+    }
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "https://moodle.uncc.edu" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+  opener.document.forms['theform'].message.focus();
+}
+
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script>
+   
+</head>
+
+<body  class="mod-resource course-117950 dir-ltr lang-en_utf8" id="mod-resource-view">
+
+<div id="page">
+  
+    <div id="brand">
+        <div id="header" class=" clearfix">        <img src="https://moodle.uncc.edu/theme/ctl-branded/branded_logo.gif" alt="UNC Charlotte" width="150px" height="60px" />        <h1 class="headermain">ITCS-2214-001-First Summer 2013-30571: Word file for Program</h1>
+	</div>	
+	<div class="navbar clearfix">
+	   <div class="breadcrumb"><h2 class="accesshide " >You are here</h2> <ul>
+<li class="first"><a  onclick="this.target='_top'" href="https://moodle.uncc.edu/">UNCCMoodle</a></li><li> <span class="accesshide " >/&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a  onclick="this.target='_top'" href="https://moodle.uncc.edu/course/view.php?id=117950">ITCS-2214-001-First Summer 2013-30571</a></li><li> <span class="accesshide " >/&nbsp;</span><span class="arrow sep">&#x25BA;</span> Word file for Programming Assignment 3</li></ul></div> <!-- end of breadcrumb -->
+	   <div class="headermenu">
+	      <ul>
+	        <li><form action="https://teaching1.uncc.edu/forms/helpdesk.php" method='post' name='helpdesk' target="foo" onSubmit="window.open('', 'foo', 'width=540,height=720,status=yes,resizable=yes,scrollbars=yes')">
+	         	         <input type="hidden" name="username" value='ebowers8'/>
+	         <input type="hidden" name="bannerid" value='632378'/>
+	         <input type="hidden" name="lastname" value='Bowers'/>
+	         <input type="hidden" name="firstname" value='Eric'/>
+	         <input type="hidden" name="email" value='ebowers8@uncc.edu'/>
+	         <input type="hidden" name="lastaccess" value='1370466882'/>
+	         <input type="hidden" name="lastlogin" value='1370435885'/>
+	         <input type="hidden" name="ipaddress" value='152.15.112.183'/>
+	         <input type="hidden" name="coursefullname" value='ITCS-2214-001-First Summer 2013-30571: Word file for Programming Assignment 3'/>
+	         <input type="hidden" name="courseurl" value='https://moodle.uncc.edu/course/view.php?id=117950'/>
+	         <a href='javascript: submitform()'>Get Help</a> 
+   		</form></li>
+	        <li><a href="http://teaching.uncc.edu/moodle-help/faq" title="Moodle FAQs" target="_blank">FAQ</a></li>
+	        <li>
+	           <div class="navigation">
+<ul><li><form action="https://moodle.uncc.edu/mod/resource/view.php"  onclick="this.target='_top';"><fieldset class="invisiblefieldset"><input type="hidden" name="id" value="1727214" /><button type="submit" title="Previous activity"><span class="arrow ">&#x25C4;</span><span class="accesshide " >&nbsp;Previous activity</span></button></fieldset></form></li><li><form action="https://moodle.uncc.edu/course/jumpto.php" method="get"  id="navmenupopup" class="popupform"><div><select id="navmenupopup_jump" name="jump" onchange="self.location=document.getElementById'navmenupopup'.jump.options[document.getElementById'navmenupopup'.jump.selectedIndex].value;">
+   <option value="https://moodle.uncc.edu/mod/forum/view.php?id=1649016" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/forum/icon.gif;">News forum</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1717528" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Course Syllabus</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1718594" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Java7 API Documentation</option>
+   <optgroup label="Week 1">   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1718640" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Sample Using compareTo and equals </option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1719728" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Generic Types</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1719730" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Generic Types Example 2</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1719732" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Error Example with file reading</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1719738" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Error handling- creating an error class</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1720518" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Stack notes</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1720716" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Array Stack Implementaion</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1720958" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Algorithm for translating infix to postfix-reworded</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1723150" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Linear Node notes</option>
+   </optgroup>   <optgroup label="Week 2">   <option value="https://moodle.uncc.edu/mod/assignment/view.php?id=1721108" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/assignment/icon.gif;">Submission of Programming Assignment 1</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1721110" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Requirements for Programming Assignment 2</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1721220" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">PostFix Evaluator code from the text</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1723146" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Queue Notes</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1725838" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">List Notes 1</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1725836" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">More List Notes</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1725498" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Code for the Ordered Linked List as we did in lecture</option>
+   </optgroup>   <optgroup label="Week 3">   <option value="https://moodle.uncc.edu/mod/assignment/view.php?id=1725604" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/assignment/icon.gif;">Submission of Progamming Assignment 2</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1727214" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Programming Assignment 3 requirements</option>
+   <option value="https://moodle.uncc.edu/mod/resource/view.php?id=1727216" selected="selected" style="background-image: urlhttps://moodle.uncc.edu/pix/smartpix.php/ctl-branded/mod/resource/icon.gif;">Jump to...</option>
+    </optgroup></select><input type="hidden" name="sesskey" value="T65UC9KjyI" /><div id="noscriptnavmenupopup" style="display: inline;"><input type="submit" value="Go" /></div><script type="text/javascript">
+//<![CDATA[
+document.getElementById"noscriptnavmenupopup".style.display = "none";
+//]]>
+</script></div></form></li></ul>
+</div>	        </li>
+	      </ul>
+	   </div> <!-- end of headermenu -->
+	</div> <!-- end of navbar -->
+</div> <!-- end of branding -->
+
+	<div class="editbar clearfix">
+	   <div class="navbutton">&nbsp;</div>
+	</div> <!-- end of editbar -->
+	<!-- END OF HEADER -->
+	
+	<div id="content">		
+
+<script type="text/javascript">
+<!--
+openpopup('/mod/resource/view.php?inpopup=true&id=1727216','resource1063664','resizable=1,scrollbars=1,directories=1,location=1,menubar=1,toolbar=1,status=1,width=620,height=450');
+
+-->
+</script><div class="popupnotice">This resource should appear in a popup window.<br />If it didn't, click here: <a href="https://moodle.uncc.edu/mod/resource/view.php?inpopup=true&amp;id=1727216" onclick="this.target='resource1063664'; return openpopup('/mod/resource/view.php?inpopup=true&amp;id=1727216', 'resource1063664','resizable=1,scrollbars=1,directories=1,location=1,menubar=1,toolbar=1,status=1,width=620,height=450');">Word file for Programming Assignment 3</a></div></div><div id="footer"><p class="helplink"></p><div class="logininfo">You are logged in as <a  href="https://moodle.uncc.edu/user/view.php?id=108488&amp;course=117950">Eric Bowers</a>  (<a  href="https://moodle.uncc.edu/login/logout.php?sesskey=T65UC9KjyI">Logout</a>)</div><div class="homelink"><a  href="https://moodle.uncc.edu/course/view.php?id=117950">ITCS-2214-001-First Summer 2013-30571</a></div>      
+   <div class="performanceinfo"><span class="timeused">0.055198 secs</span> <span class="memoryused">RAM: 1.3MB</span> <span class="included">Included 41 files</span> <span class="posixtimes">ticks: 6 user: 3 sys: 0 cuser: 0 csys: 0</span> <span class="serverload">Load average: 0.29</span> <span class="rcache">Record cache hit/miss ratio : 0/0</span> </div></div>
+</div>
+</body>
+</html>

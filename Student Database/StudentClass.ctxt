@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StudentClass()
+comment0.text=\ \r\n\ \ The\ no-args\ constructor\ sets\ the\ name\ field\ to\ "no\ name","no\ id",\ and\ average\ to\ zero\r\n
+comment1.params=n\ id\ testS
+comment1.target=StudentClass(java.lang.String,\ java.lang.String,\ double[])
+comment1.text=\r\n\ The\ name\ field\ and\ the\ score\ fields\ are\ set\ to\ the\ parameter\ values\ with\ no\ data\ validation\ \ \r\n\ \ @param\ String-\ a\ string\ value\ for\ the\ student\ name\r\n\ \ @param\ int-\ an\ integer\ value\ for\ the\ student\ current\ id\r\n\ \ @param\ String-\ a\ string\ value\ for\ student\ 5\ test\ scores\r\n
+comment2.params=inAve
+comment2.target=double\ compareTo(StudentClass)
+comment2.text=\ \r\n\ This\ method\ compares\ the\ invoking\ student\ object\ with\ the\ StudentClass\ the\ reference\r\n\ parameter\ refers\ to.\ The\ comparison\ is\ done\ on\ the\ average\ field\r\n\ @param\ StudentClass-\ a\ Student\ Class\ reference\ is\ sent\ in\r\n\ @return\ int\ value\ of\ -1,\ 0\ or\ 1\t\r\n
+comment3.params=inParam
+comment3.target=boolean\ equal(java.lang.Object)
+comment3.text=\ \r\n\ This\ method\ compares\ invoking\ student\ object\ with\ the\ StudentClass\ the\ reference\r\n\ parameter\ refers\ to\ to\ check\ for\ equal\ values\ in\ both\ fields.\ \r\n\ @param\ Object-\ an\ Object\ is\ the\ parameter\ type\ to\ override\ the\ equals\ method\ in\ the\ object\ class\r\n\ @return\ bool-\ true\ if\ the\ two\ objects\ have\ the\ same\ values\ for\ both\ fields,\ false\ otherwise\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ \r\n\ \tReturns\ a\ String\ representation\ of\ a\ StudentClass\ object\ that\ includes\ both\ the\ values\ of\ the\r\n\ \ \ name\ field\ and\ the\ id\ field\ and\ average\ field\r\n
+numComments=5

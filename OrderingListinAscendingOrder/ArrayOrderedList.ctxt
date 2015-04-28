@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=ArrayOrderedList(int)
+comment1.params=element
+comment1.target=void\ add(java.lang.Object)
+comment1.text=\r\n\ Adds\ the\ specified\ Comparable\ element\ to\ this\ list,\ keeping\r\n\ the\ elements\ in\ sorted\ order.\r\n\r\n\ @param\ element\ the\ element\ to\ be\ added\ to\ this\ list\r\n
+comment2.params=
+comment2.target=void\ expandCapacity()
+comment2.text=\r\n\ using\ another\ array\ to\ expand\ the\ capacity\ of\ the\ orginal\ array\ \r\n\ \r\n\r\n\ @param\ taking\ the\ array\ list\ and\ expanding\ the\ index\ capacity\ \r\n
+numComments=3

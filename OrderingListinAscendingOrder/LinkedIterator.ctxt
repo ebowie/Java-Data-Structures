@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=collection\ size
+comment0.target=LinkedIterator(LinearNode,\ int)
+comment0.text=\r\n\ Sets\ up\ this\ iterator\ using\ the\ specified\ items.\r\n\r\n\ @param\ collection\ the\ collection\ the\ iterator\ will\ move\ over\r\n\ @param\ size\ the\ integer\ size\ of\ the\ collection\r\n
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment1.text=\r\n\ Returns\ true\ if\ this\ iterator\ has\ at\ least\ one\ more\ element\r\n\ to\ deliver\ in\ the\ iteration.\r\n\r\n\ @return\ true\ if\ this\ iterator\ has\ a\ least\ one\ more\ element\ to\ deliver\r\n\ in\ the\ iteration\r\n
+comment2.params=
+comment2.target=java.lang.Object\ next()
+comment2.text=\r\n\ Returns\ the\ next\ element\ in\ the\ iteration.\ If\ there\ are\ no\r\n\ more\ elements\ in\ this\ iteration,\ a\ NoSuchElementException\ is\r\n\ thrown.\r\n\r\n\ @return\ the\ next\ element\ in\ the\ iteration\r\n\ @throws\ NoSuchElementException\ if\ a\ no\ such\ element\ exception\ occurs\r\n
+comment3.params=
+comment3.target=void\ remove()
+comment3.text=\r\n\ The\ remove\ operation\ is\ not\ supported.\r\n\r\n\ @throws\ UnsupportedOperationException\ if\ an\ unsupported\ operation\r\n\ exception\ occurs\r\n
+numComments=4

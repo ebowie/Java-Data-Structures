@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=infix
+comment0.target=InfixToPostFixConverter(java.lang.String)
+comment0.text=\r\n\ \r\n\ this\ is\ a\ contuctor\ that\ take\ in\ one\ string,\ which\ is\ the\ infix\r\n\ \r\n\ \r\n
+comment1.params=infix
+comment1.target=void\ setInfix(java.lang.String)
+comment1.text=\r\n\ \r\n\ \r\n\ this\ is\ the\ setter\ and\ it\ takes\ in\ the\ infix\ as\ well\ \r\n\ \r\n
+comment2.params=useOperator
+comment2.target=void\ setCompareTo(char)
+comment2.text=\r\n\ this\ is\ another\ setter\ that\ compare\ if\ the\ stack\ is\ empyt\ or\ not\ and\ where\ to\ put\ the\ operator\ at\ \ \r\n\ \r\n\ \r\n\ \r\n
+comment3.params=PrecOperator
+comment3.target=int\ getPrecedence(char)
+comment3.text=\r\n\ \r\n\ \ this\ a\ getter\ that\ can\ return\ what\ each\ value\ the\ operator\ has\ when\ it\ will\ be\ compared\ too\r\n\ \r\n\ \r\n
+comment4.params=
+comment4.target=void\ getSuperPop()
+comment4.text=\r\n\ \r\n\ this\ is\ a\ super\ pop\ that\ allows\ everything\ to\ be\ pop\ depending\ the\ on\ the\ method\ or\ operator\ is\ being\ called\ \r\n\ \r\n\r\n
+comment5.params=
+comment5.target=java.lang.String\ getPostfix()
+comment5.text=\r\n\ \ this\ getter\ is\ returning\ the\ postfix\ to\ the\ driver\ postfix\ \r\n\r\n\ \r\n\ \r\n
+numComments=6

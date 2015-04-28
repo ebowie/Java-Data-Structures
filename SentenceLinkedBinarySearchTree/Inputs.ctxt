@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=tree
+comment0.target=void\ setdeleteOccurences(LinkedBinarySearchTree)
+comment0.text=\r\n\ This\ method\ shows\ deletion\ of\ occurences\ in\ a\ word\ and\ if\ there\ is\ not\ occurences\ to\ be\ deleted\ then\ the\ word\ is\ removed\ from\ the\ tree\ \r\n\ \r\n\ @param(\ takes\ in\ the\ LinkedBinarySearchTree<Word>)\ \r\n\ \r\n
+comment1.params=tree
+comment1.target=void\ setdeleteWord(LinkedBinarySearchTree)
+comment1.text=\r\n\ This\ method\ shows\ the\ deletion\ of\ a\ word\ that\ user\ want\ to\ remove\ from\ the\ tree\ \r\n\ \r\n\ @param(\ takes\ in\ the\ LinkedBinarySearchTree<Word>)\ \r\n\ \r\n
+comment2.params=tree
+comment2.target=void\ setPrintMax(LinkedBinarySearchTree)
+comment2.text=\r\n\ This\ method\ shows\ \ that\ it\ will\ print\ the\ max\ from\ the\ binary\ tree\ \r\n\ \r\n\ @param(\ takes\ in\ the\ LinkedBinarySearchTree<Word>)\ \r\n\ \r\n
+comment3.params=tree
+comment3.target=void\ setPrintMin(LinkedBinarySearchTree)
+comment3.text=\r\n\ This\ method\ shows\ that\ it\ will\ print\ the\ min\ from\ the\ binary\ tree\ \r\n\ \r\n\ @param(\ takes\ in\ the\ LinkedBinarySearchTree<Word>)\ \r\n\ \r\n
+comment4.params=tree
+comment4.target=void\ setPrintInOrderList(LinkedBinarySearchTree)
+comment4.text=\r\n\ This\ method\ shows\ the\ ascending\ order\ of\ the\ word\ and\ occurences\ of\ the\ words\ and\ to\ be\ put\ in\ a\ nother\ file\ \r\n\ \r\n\ @param(\ takes\ in\ the\ LinkedBinarySearchTree<Word>)\ \r\n\ \r\n
+numComments=5

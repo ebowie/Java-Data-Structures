@@ -1,0 +1,11 @@
+
+Jon Wills, 1234,89,97,78,75,90
+Misty Spring, 2345,88,77,89,95,93
+Devon Smith, 3456,89,92,78,98,79
+Cindy Berger, 4567,78,67,82,81,88
+Bob Barker, 5345,81,75,67,98,70
+Beth Carpenter, 1346,84,57,99,45,93
+Tom Hanks, 6345,78,77,89,85,83
+Bill Mary, 345,58,57,89,95,93
+Britany Spears, 245,88,77,89,95,93
+Justin timberlake, 2345,98,47,79,95,63

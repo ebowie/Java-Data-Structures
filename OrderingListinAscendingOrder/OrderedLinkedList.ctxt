@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=element
+comment0.target=void\ add(java.lang.Object)
+comment0.text=\r\n\ Adds\ the\ specified\ Comparable\ element\ to\ this\ list,\ keeping\r\n\ the\ elements\ in\ sorted\ order.\r\n\r\n\ @param\ element\ the\ element\ to\ be\ added\ to\ this\ list\r\n
+numComments=1

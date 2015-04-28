@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=obj
+comment0.target=BinaryTreeNode(java.lang.Object)
+comment0.text=\r\n\ Creates\ a\ new\ tree\ node\ with\ the\ specified\ data.\r\n\r\n\ @param\ obj\ the\ element\ that\ will\ become\ a\ part\ of\ the\ new\ tree\ node\r\n
+comment1.params=
+comment1.target=int\ numChildren()
+comment1.text=\r\n\ Returns\ the\ number\ of\ non-null\ children\ of\ this\ node.\r\n\ This\ method\ may\ be\ able\ to\ be\ written\ more\ efficiently.\r\n\r\n\ @return\ the\ integer\ number\ of\ non-null\ children\ of\ this\ node\r\n
+numComments=2

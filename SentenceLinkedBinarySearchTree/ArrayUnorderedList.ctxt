@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayUnorderedList()
+comment0.text=\r\n\ Creates\ an\ empty\ list\ using\ the\ default\ capacity.\r\n
+comment1.params=x
+comment1.target=ArrayUnorderedList(int)
+comment1.text=\r\n\ Creates\ an\ empty\ list\ using\ the\ specified\ capacity.\r\n
+comment2.params=element
+comment2.target=void\ addToFront(java.lang.Object)
+comment2.text=\r\n\ \ Adds\ the\ specified\ element\ to\ the\ front\ of\ the\ list.\r\n
+comment3.params=element
+comment3.target=void\ addToRear(java.lang.Object)
+comment3.text=\r\n\ Adds\ the\ specified\ element\ to\ the\ rear\ of\ the\ list.\r\n
+comment4.params=element\ target
+comment4.target=void\ addAfter(java.lang.Object,\ java.lang.Object)
+comment4.text=\r\n\ Adds\ the\ specified\ element\ after\ the\ specified\ target\ element.\r\n\ \ \ //\ \ Throws\ a\ ElementNotFoundException\ if\ the\ target\ is\ not\ found.\r\n
+comment5.params=
+comment5.target=void\ expandCapacity()
+comment5.text=\r\n\ using\ another\ array\ to\ expand\ the\ capacity\ of\ the\ orginal\ array\ \r\n\ \r\n\r\n\ @param\ taking\ the\ array\ list\ and\ expanding\ the\ index\ capacity\ \r\n
+numComments=6
